@@ -1,0 +1,1 @@
+python main.py --roi_x=96 --roi_y=96 --roi_z=128 --in_channels=1 --out_channels=4 --model_name=Swin-X2S-Tiny --batch_size=1 --logdir="pelvic1k_swinx2stiny_view1/" --optim_lr=3e-5 --reg_weight=5e-1 --save_checkpoint --lrschedule="warmup_cosine" --data_dir="./dataset/CTPelvic1K/data_list_.json" --max_epochs=100 --val_start=0 --val_every=5 --warmup_epochs=10

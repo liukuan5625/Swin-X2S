@@ -1,0 +1,1 @@
+python main.py --roi_x=128 --roi_y=128 --roi_z=160 --in_channels=1 --out_channels=26 --model_name=Swin-X2S-Small --batch_size=1 --logdir="spine1k_swinx2ssmall_view1/" --optim_lr=3e-5 --reg_weight=5e-1 --save_checkpoint --lrschedule="warmup_cosine" --data_dir="./dataset/CTSpine1K/data_list_.json" --max_epochs=250 --val_start=0 --val_every=5 --warmup_epochs=20
