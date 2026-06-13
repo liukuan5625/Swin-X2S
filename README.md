@@ -9,6 +9,7 @@ This repository is the official implementation code for our paper "Swin X2S: Rec
 
 ## Get Started
 This repository is based on Python 3.11.5 + PyTorch 2.1.0+cu118 + MONAI 1.3.0.
+Model weights are available at https://github.com/liukuan5625/Swin-X2S/releases/tag/weights
 
 ### Training WorkFlow
 1. DRR Simulated Dataset
